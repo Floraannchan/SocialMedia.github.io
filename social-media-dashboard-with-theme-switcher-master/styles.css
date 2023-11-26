@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:hsl(230, 17%, 14%);
+    min-height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+.white{
+     background: white;
+     color: black;
+}
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 1rem;
+}
+.social {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: hsl(232, 19%, 15%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: visible;
+    flex-direction: column;
+
+}
+
+.WhiteHeader{
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .btn {
+    border: none;
+    background: transparent;
+    color: white;
+    text-align: center;
+   
+
+}
+
+.header .btn  i {
+    position: relative;
+    top: 4px;
+    font-size: 1.5rem;
+    padding: 0 0.8rem;
+    color: hsl(165, 69%, 51%);
+    cursor: pointer;
+}
+
+.container h3{
+    font-size: 12px;
+    opacity: 0.3;
+}
+.media{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.media .app{
+ 
+    width: 250px;
+    text-align: center;
+    background: hsl(228, 28%, 20%);
+    padding: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.media .appBG{ 
+   background: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+p, h2{
+    margin: 0.5rem;
+
+}
+
+.blur{
+    opacity: 0.8;
+
+}
+
+.blur img{
+    position: relative;
+    top: 4px;
+    width: 20px;
+    padding: 1px;
+    align-items: center;
+}
+
+.followers{
+    
+    font-size: 11px;
+    opacity: 0.5;
+    letter-spacing: 5px;
+    margin-top: -7px;
+    margin-bottom: 1.5rem;
+
+}
+
+.app .green{
+    color: rgb(46, 208, 46);
+}
+
+.app .red{
+    color: rgb(193, 53, 53);
+}
+
+.blue{
+    border-top: 5px solid hsl(208, 92%, 53%) ;
+}
+
+.ig{
+    border-top: 5px solid transparent;
+    border-image: linear-gradient(to right,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+    border-image-slice: 1;
+
+}
+
+.YOUTUBE{
+    border-top: 5px solid hsl(348, 97%, 39%);
+}
+
+.today{
+    font-size: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.todayCon{
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.react{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 0.5rem;
+    align-items: center;
+    background: hsl(228, 28%, 20%);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.todayCon .appBG{
+   background: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.react:hover{
+    background: hsl(229, 26%, 48%);
+}
+.react img{
+    width: 20px;
+    border-radius: 3px;
+    margin-bottom:  1rem;
+}
+.view{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.view .title{ 
+    opacity: 0.4;
+}
+
+.view .num{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.view .percentage{
+    color: rgb(135, 238, 135);
+}
+
+.view .percentage-red{
+    color: red;
+    
+}
+
